@@ -7,6 +7,18 @@ $break-small: 480px !default;
 $break-medium: 768px !default;
 $break-large: 1024px !default;
 
+// Needed to generate the grid and the respond-to calls
+$breakpoints:(
+	'landscape': 'only screen and (orientation:landscape)',
+	'portrait': 'only screen and (orientation:portrait)',
+	'mobile': 'only screen and (max-width: #{$break-small})',
+	'exclude-mobile': 'only screen and (min-width: #{$break-small} + 1)',
+	'tablet': 'only screen and (min-width: #{$break-small} + 1) and (max-width: #{$break-large})',
+	'desktop': 'only screen and (min-width: #{$break-large} + 1)',
+	'retina': 'only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi)',
+) !default;
+
+
 // Css easing transition helpers
 //
 // example:
