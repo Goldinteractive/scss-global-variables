@@ -1,0 +1,19 @@
+{
+  "name": "gi-scss-global-variables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_global_variables.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goldinteractive/scss-global-variables.git"
+  },
+  "author": "Gold Interactive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goldinteractive/scss-global-variables/issues"
+  },
+  "homepage": "https://github.com/Goldinteractive/scss-global-variables#readme"
+}
